@@ -6,7 +6,7 @@
 # TODO: Add a function called get_advice() to return gardening advice based on the season
 # TODO: Add comments/docstrings to document what each section of the code does
 
-month = 4
+month = int(input("Enter the current month (1-12): "))
 
 if month in [12, 1, 2]:
     season = "Winter"
